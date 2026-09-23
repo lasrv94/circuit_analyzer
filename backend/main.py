@@ -19,7 +19,7 @@ load_dotenv()
 app = FastAPI(
     title="ElectroSubmeter AI - Codex CLI & Image/PDF Markup API",
     description="API local para marcado y submedición de diagramas unifilares con Codex CLI",
-    version="2.0.0"
+    version="1.0.1"
 )
 
 # Permitir CORS para desarrollo local con Vite

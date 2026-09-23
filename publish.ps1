@@ -35,9 +35,10 @@ git add .
 
 # 4. Commit y Tag
 Write-Host "[4/5] Creando commit y etiqueta v$newVersion..." -ForegroundColor Yellow
-$commitMsg = "v$newVersion: $Message"
+$commitMsg = "v${newVersion}: $Message"
 git commit -m $commitMsg
-git tag -a "v$newVersion" -m "Release v$newVersion: $Message"
+git tag -a "v$newVersion" -m "Release v${newVersion}: $Message"
+
 
 # 5. Push
 Write-Host "[5/5] Enviando cambios y tags a GitHub..." -ForegroundColor Yellow
