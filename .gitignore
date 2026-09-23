@@ -1,0 +1,39 @@
+# Environment & Virtualenv
+backend/venv/
+venv/
+ENV/
+env/
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.pytest_cache/
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+dist/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploads & Temporary artifacts
+uploads/*
+!uploads/.gitkeep
+/test_*
+test_*.pdf
+test_*.png
+test_*.jpg
+
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
